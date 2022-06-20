@@ -10,6 +10,7 @@
     }
   ],
 
-  "permissions": ["http://*/*", "https://*/*"],
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["webRequest", "tabs"],
   "manifest_version": 3
 }
